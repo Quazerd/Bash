@@ -1,0 +1,9 @@
+#!/bin/bash
+cd group_30_free
+mkdir foldername1 foldername2 foldername3
+cd foldername1
+touch filename1.txt filename2.txt filename3.txt filename4.json filename5.json
+mkdir innerfolder1 innerfolder2 innerfolder3
+ls -la
+mv /home/quazerd/group_30_free/foldername1/filename1.txt /home/quazerd/group_30_free/foldername1/filename2.txt innerfolder1
+echo DONE!
